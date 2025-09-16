@@ -69,7 +69,7 @@ python src/main.py
 
 | Input Image | Detection Result |
 |-------------|------------------|
-| ![input](data/sample_input.jpg) | ![output](data/sample_output.jpg) |
+| ![input](examples/After.png) | ![output](examples/Before.jpg) |
 
 ---
 
@@ -87,5 +87,6 @@ Main dependencies (see `requirements.txt`):
 ## 👨‍💻 Author  
 
 Developed by **Muhammad Irfan** 🚀  
+
 
 
