@@ -9,21 +9,34 @@ This project implements a **YOLOv8-based object detection model** to detect cric
 ```
 cricket-ball-detection/
 │
-├── README.md              # Project description (this file)
+├── README.md              # Project description & usage
 ├── requirements.txt       # Python dependencies
+├── .gitignore             # Ignore unnecessary files
+├── LICENSE                # Open-source license (MIT, etc.)
+│
 ├── src/                   # Source code
+│   ├── __init__.py        # (optional) make it a package
+│   ├── main.py            # End-to-end pipeline controller
 │   ├── phase1_setup.py    # Environment setup & logging
 │   ├── preprocess.py      # Dataset preprocessing & augmentation
 │   ├── train_model.py     # YOLOv8 training pipeline
-│   ├── predict.py         # Run inference on new images/videos
-│   └── main.py            # End-to-end pipeline controller
+│   └── predict.py         # Run inference on new images/videos
+│
 ├── data/                  # Dataset (YOLO format)
+│   ├── raw/               # Unprocessed images
 │   ├── train/             # Training images & labels
 │   ├── valid/             # Validation images & labels
 │   └── test/              # Test images & labels
-```
+│
+├── configs/               # (optional) YAML configs for training
+│   └── model.yaml
+│
+├── results/               # Store sample outputs / screenshots
+│   ├── before.png
+│   └── after.png
+│
+└── runs/                  # YOLOv8 auto-generated training logs (ignored by git)
 
----
 
 ## ⚙️ Installation  
 
@@ -87,6 +100,7 @@ Main dependencies (see `requirements.txt`):
 ## 👨‍💻 Author  
 
 Developed by **Muhammad Irfan** 🚀  
+
 
 
 
