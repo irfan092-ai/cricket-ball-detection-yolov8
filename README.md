@@ -38,6 +38,7 @@ cricket-ball-detection/
 └── runs/                  # YOLOv8 auto-generated training logs (ignored by git)
 
 
+
 ## ⚙️ Installation  
 
 Clone the repository and install dependencies:
@@ -100,6 +101,7 @@ Main dependencies (see `requirements.txt`):
 ## 👨‍💻 Author  
 
 Developed by **Muhammad Irfan** 🚀  
+
 
 
 
